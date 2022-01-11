@@ -1,0 +1,56 @@
+﻿<Window x:Class="Lab2_WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab2_WpfApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="450">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Height="130">
+            <TextBlock.VerticalAlignment>
+                <VerticalAlignment>Center</VerticalAlignment>
+            </TextBlock.VerticalAlignment>
+            <TextBlock.Margin>
+                <Thickness>10,0,10,0</Thickness>
+            </TextBlock.Margin>
+            <TextBlock.Background>
+                <Brush>#FF494852</Brush>
+            </TextBlock.Background>
+        </TextBlock>
+        <UniformGrid Rows="6" Columns="4" Grid.Row="1" Grid.Column="0" Margin="10">
+            <Button Background="Gray" Margin="1" Padding="10" Content="%"/>
+            <Button Background="Gray" Margin="1" Padding="10" Content="CE"/>
+            <Button Background="Gray" Margin="1" Padding="10" Content="C"/>
+            <Button Background="Gray" Margin="1" Padding="10" Content="←"/>
+            <Button Background="Gray" Margin="1" Padding="10" Content="1/x"/>
+            <Button Background="Gray" Margin="1" Padding="10" Content="x²"/>
+            <Button Background="Gray" Margin="1" Padding="10" Content="√x"/>
+            <Button Background="Gray" Margin="1" Padding="10" Content="/"/>
+            <Button Background="WhiteSmoke" Margin="1" Padding="10" Content="7"/>
+            <Button Background="WhiteSmoke" Margin="1" Padding="10" Content="8"/>
+            <Button Background="WhiteSmoke" Margin="1" Padding="10" Content="9"/>
+            <Button Background="Gray" Margin="1" Padding="10" Content="x"/>
+            <Button Background="WhiteSmoke" Margin="1" Padding="10" Content="4"/>
+            <Button Background="WhiteSmoke" Margin="1" Padding="10" Content="5"/>
+            <Button Background="WhiteSmoke" Margin="1" Padding="10" Content="6"/>
+            <Button Background="Gray" Margin="1" Padding="10" Content="-"/>
+            <Button Background="WhiteSmoke" Margin="1" Padding="10" Content="1"/>
+            <Button Background="WhiteSmoke" Margin="1" Padding="10" Content="2"/>
+            <Button Background="WhiteSmoke" Margin="1" Padding="10" Content="3"/>
+            <Button Background="Gray" Margin="1" Padding="10" Content="+"/>
+            <Button Background="WhiteSmoke" Margin="1" Padding="10" Content="+/-"/>
+            <Button Background="WhiteSmoke" Margin="1" Padding="10" Content="0"/>
+            <Button Background="WhiteSmoke" Margin="1" Padding="10" Content="."/>
+            <Button Background="Gray" Margin="1" Padding="10" Content="="/>
+            
+        </UniformGrid>
+    </Grid>
+</Window>
